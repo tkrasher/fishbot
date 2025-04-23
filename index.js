@@ -5,7 +5,8 @@ const port = 3000;
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
-});
+}); 
+
 
 client.once("ready", () => {
   console.log("Bot is online!");
